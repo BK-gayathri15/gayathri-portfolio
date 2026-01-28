@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+
+header nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.hero {
+    height: 80vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.about {
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+}
+
+.about img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.gallery {
+    padding: 50px;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.img-box {
+    width: 250px;
+    transition: 0.3s;
+}
+
+.img-box img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.img-box:hover {
+    transform: scale(1.1);
+}
+
+.contact {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
